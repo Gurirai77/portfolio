@@ -222,8 +222,10 @@ a {
 
 .skillsc1 {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-    cursor: pointer;
 }
 
 .skillsc1:hover {
@@ -231,7 +233,7 @@ a {
 }
 
 .skillsc2 {
-    width: 70%;
+    width: 90%;
     /* height: 250px; */
     /* background-color: aqua; */
     display: flex;
@@ -406,7 +408,9 @@ a {
 }
 
 .View {
-    display: flex;
+    display: none;
+}
+    /* display: flex;
     align-items: center;
     justify-content: center;
     width: 32%;
@@ -415,12 +419,14 @@ a {
     border-radius: 3px;
     margin-left: 100px;
     margin-top: 5px;
-}
+} */
 
 .vv2 {
-    margin-top: 0px;
-    margin-bottom: ;
-    /* background-color: red; */
+    display: none;
+}
+    /* margin-top: 0px;
+    margin-bottom: 15px ;
+    background-color: red;
     width: 100%;
     display: flex;
     align-items: center;
@@ -428,7 +434,7 @@ a {
     width: 100%;
     padding: 5px;
     border-radius: 3px;
-}
+} */
 
 .vv2 a {
     display: flex;
@@ -712,7 +718,7 @@ a {
     }
 
     .ftl {
-        width: 90%;
+        width: 100%;
         padding: 10px;
     }
 
@@ -732,6 +738,8 @@ a {
 
     .wcard1 {
         width: 100%;
+        height: 35%;
+
     }
 
     .contact {
@@ -765,6 +773,8 @@ a {
     .mst {
         font-size: 25px;
         text-align: center;
+        cursor: pointer;
+
     }
 
     .Education {
